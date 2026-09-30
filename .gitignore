@@ -1,0 +1,23 @@
+*.iml
+.gradle
+/local.properties
+/.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# App build directory
+/app/build/
+
+# Ignore large model files (GitHub limit is 100MB)
+/app/src/main/assets/model/*.onnx
+
+# Ignore keystore files
+*.jks
+*.keystore
+
+# Local test directories
+model_dir/
